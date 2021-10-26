@@ -14,14 +14,14 @@ keep_files:
 
 
 # Site settings
-title: CFVR
-subtitle: "Consumer Friendly Virtual Reality"
-url: "https://cfvr-r-d.github.io" # the base hostname & protocol for your site
+title: HBAT
+subtitle: "Pioneering advanced technologies for a better future, today."
+url: "https://prometheon-technologies.github.io/" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: ""
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
-copyright: "Copyright © 2021 CFVR. All rights reserved."
+copyright: "Copyright © 2021 Prometheon Technologies. All rights reserved."
 
 # Build settings
 markdown: kramdown
