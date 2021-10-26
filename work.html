@@ -4,59 +4,62 @@ title: Our Work
 permalink: /work/
 ---
 
-    <!-- Slider Start -->
+<!-- Slider Start -->
 <section id="global-header">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="block">
-                    <h1>Just some of our latest projects.</h1>
-                    <p>Don’t just take our word for it. Check out some of our latest work.</p>
-                </div>
-            </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Just some of our latest projects.</h1>
+          <p>
+            Don’t just take our word for it. Check out some of our latest work.
+          </p>
         </div>
+      </div>
     </div>
+  </div>
 </section>
-    <!-- Portfolio Start -->
+<!-- Portfolio Start -->
 <section id="portfolio-work">
-    <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="block">
-              <div class="portfolio-menu">
-                <ul>
-                    <li class="filter" data-filter="all">Everything</li>
-                    <li class="filter" data-filter=".VR">VR</li>
-                    <li class="filter" data-filter=".Headset">Headset</li>
-                    <li class="filter" data-filter=".FBT">FBT</li>
-                    <li class="filter" data-filter=".Module">Module</li>
-                </ul>
-              </div>
-
-              {% if site.data.portfolio.size > 0 %}
-              <div class="portfolio-contant">
-                <ul id="portfolio-contant-active">
-                  {% for work in site.data.portfolio %}
-                    <li class="mix{% for cat in work.categorys %} {{ cat }}{% endfor %}">
-                      <a href="{{ work.link }}">
-                        <img src="{{ work.image }}" alt="">
-                        <div class="overly">
-                          <div class="position-center">
-                            <h2>{{ work.name }}</h2>
-                            <p>{{ work.subtitle }}</p>
-                          </div>
-                        </div>
-                      </a>
-                  </li>
-                  {% endfor %}
-                </ul>
-              </div>
-              {% endif %}
-
-            </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <div class="portfolio-menu">
+            <ul>
+              <li class="filter" data-filter="all">Everything</li>
+              <li class="filter" data-filter=".VR">VR</li>
+              <li class="filter" data-filter=".Headset">Headset</li>
+              <li class="filter" data-filter=".FBT">FBT</li>
+              <li class="filter" data-filter=".Module">Module</li>
+            </ul>
           </div>
+
+          {% if site.data.portfolio.size > 0 %}
+          <div class="portfolio-contant">
+            <ul id="portfolio-contant-active">
+              {% for work in site.data.portfolio %}
+              <li
+                class="mix{% for cat in work.categorys %} {{ cat }}{% endfor %}"
+              >
+                <a href="{{ work.link }}">
+                  <img src="{{ work.image }}" alt="" />
+                  <div class="overly">
+                    <div class="position-center">
+                      <h2>{{ work.name }}</h2>
+                      <p>{{ work.subtitle }}</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
         </div>
+      </div>
     </div>
+  </div>
 </section>
 
 <!-- Clients Logo Section Start -->
