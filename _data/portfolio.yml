@@ -1,0 +1,21 @@
+- name: CR1
+  subtitle: Very cool VR headset designed by us UwU 
+  image: /img/portfolio/CV1.jpg
+  link: "#"
+  categorys:
+  - VR
+  - Headset
+- name: BUTT FBT tracker
+  subtitle: Very cool FBT tracker designed by us UwU 
+  image: /img/portfolio/fbt.jpg
+  link: "#"
+  categorys:
+  - VR
+  - FBT
+- name: IR Camera Module
+  subtitle: Lets you see your envoirement in infrared 
+  image: /img/portfolio/IRModule.jpg
+  link: "#"
+  categorys:
+  - VR
+  - Module

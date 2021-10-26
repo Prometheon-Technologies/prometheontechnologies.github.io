@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/Prometheon-Technologies/Prometheon-Technologies.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+# CFVR website based on _Airspace_ for Jekyll
+## Installation
+1. Intall Ruby for your system. (2.7.4 works best for me) !!!Make sure it's a [Ruby+Devkit](https://rubyinstaller.org/downloads/) version on Windows!!!
+2. Verify which Ruby version you have installed 
+```sh
+$ ruby -v
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Prometheon-Technologies/Prometheon-Technologies.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+3. [Install Jekyll](https://jekyllrb.com/docs/installation/)
+4. Clone the repo
+```sh
+$ git clone https://github.com/CFVR-R-D/website.git
+$ cd website
+```
+5. Install dependancies
+```sh
+$ bundle config set --local path 'vendor/bundle'
+$ bundle install
+```
+6. Start server
+```sh
+$ bundle exec jekyll serve
+```
+## Important notes
+Please rerun the following command after changes to the .gemspec file
+```sh
+$ bundle install
+```
