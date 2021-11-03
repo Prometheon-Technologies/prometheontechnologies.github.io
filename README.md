@@ -1,4 +1,4 @@
-# CFVR website based on _Airspace_ for Jekyll
+# HBAT website based on _Airspace_ for Jekyll
 ## Installation
 1. Intall Ruby for your system. (2.7.4 works best for me) !!!Make sure it's a [Ruby+Devkit](https://rubyinstaller.org/downloads/) version on Windows!!!
 2. Verify which Ruby version you have installed 
