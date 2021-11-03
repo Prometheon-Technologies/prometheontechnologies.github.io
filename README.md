@@ -8,7 +8,8 @@ $ ruby -v
 3. [Install Jekyll](https://jekyllrb.com/docs/installation/)
 4. Clone the repo
 ```sh
-$ git clone https://github.com/CFVR-R-D/website.git
+$ git clone https://github.com/Prometheon-Technologies.github.io
+/website.git
 $ cd website
 ```
 5. Install dependancies
